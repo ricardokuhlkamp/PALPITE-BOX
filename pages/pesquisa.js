@@ -52,7 +52,7 @@ const Pesquisa = () => {
                 {notas.map(nota => {
                 return (<label className="block w-1/6 text-center">
                             {nota}<br/>
-                            <input type= 'radio' name = 'Nota' value= {nota} onChange={onChange}/>
+                            <input type='radio' name='Nota' value={nota} onChange={onChange}/>
                         </label>)
                 })
                 }
